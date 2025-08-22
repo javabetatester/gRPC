@@ -1,0 +1,75 @@
+# Binários
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test binary, construído com `go test -c`
+*.test
+
+# Output do coverage de go
+*.out
+*.cov
+
+# Arquivos de dependência
+go.sum
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS gerados
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Arquivos de configuração local
+.env
+.env.local
+.env.*.local
+config.local.*
+
+# Cache do Go
+.cache/
+
+# Arquivos gerados pelo protobuf
+*.pb.go
+*_grpc.pb.go
+
+# Node modules (se usar ferramentas JS)
+node_modules/
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos de profiling
+cpu.prof
+mem.prof
+block.prof
+
+# Vendor (se usando)
+vendor/
+
+# Docker
+.docker/
