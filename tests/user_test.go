@@ -28,7 +28,7 @@ func TestValidateName(t *testing.T) {
 		name  string
 		valid bool
 	}{
-		{"João Silva", true},
+		{"Gabriel Katakura", true},
 		{"A", false},
 		{"", false},
 	}
